@@ -1,0 +1,1 @@
+{"buildTargets":["all","black","build","check_code","clean","count_lines","ftest","install","install_requirements","pypi","pypi_test","test"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

@@ -1,74 +1,49 @@
-# Data analysis
-- Document here the project: butterfly_detector
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+## Project Introduction
 
-Please document the project the better you can.
+The goal is to detect a set of 22 butterflies, that are predominant in the south of europe.
 
-# Startup the project
+For the multiclass classification, I used the VGG16 for transfer learning:
 
-The initial setup.
+<img src="https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177.png">
 
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
+## Data
 
-Unittest test:
-```bash
-make clean install test
-```
+I used a set of 100 images for the training set and 50 for the validation set.
 
-Check for butterfly_detector in gitlab.com/{group}.
-If your project is not set please add it:
+These are the butterflies being used for the project:
 
-- Create a new project on `gitlab.com/{group}/butterfly_detector`
-- Then populate it:
+*Anthocharis Cardamines*
 
-```bash
-##   e.g. if group is "{group}" and project_name is "butterfly_detector"
-git remote add origin git@github.com:{group}/butterfly_detector.git
-git push -u origin master
-git push -u origin --tags
-```
+*Coenonympha Pamphilus*
 
-Functionnal test with a script:
+*Gonepteryx Cleopatra*
 
-```bash
-cd
-mkdir tmp
-cd tmp
-butterfly_detector-run
-```
+*Issoria Lathonia*
 
-# Install
+*Lycaena Phlaeas*
 
-Go to `https://github.com/{group}/butterfly_detector` to see the project, manage issues,
-setup you ssh public key, ...
+*Lysandra Bellargus*
 
-Create a python3 virtualenv and activate it:
+*Lythria Sanguinaria*
 
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
+*Maniola Jurtina*
 
-Clone the project and install it:
+*Melanargia Ines*
 
-```bash
-git clone git@github.com:{group}/butterfly_detector.git
-cd butterfly_detector
-pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
+*Nymphalis Polychloros*
 
-```bash
-cd
-mkdir tmp
-cd tmp
-butterfly_detector-run
-```
+*Papilio Machaon*
+
+*Pararge Aegeria*
+
+*Peribatodes Rhomboidaria*
+
+*Pieris Rapae*
+
+*Pyronia Tithonus*
+
+*Spialia Sertorius*
+
+*Stegania Trimaculata*
+
+*Zerynthia Rumina*

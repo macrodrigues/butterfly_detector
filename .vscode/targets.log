@@ -1,0 +1,359 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Jan 15 16:17:16 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
+# default
+.SHELLFLAGS := -c
+# environment
+HOMEBREW_NO_ANALYTICS = 1
+# environment
+VSCODE_AGENT_FOLDER = /home/macrodrigues/.vscode-server
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Microsoft VS Code/bin/code
+# environment
+GOOGLE_APPLICATION_CREDENTIALS = /home/macrodrigues/code/macrodrigues/gcp/wagon-bootcamp-328716-bcd76438ed42.json
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 47)
+PYPI_USERNAME = <AUTHOR>
+# environment
+VSCODE_CWD = /mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Microsoft VS Code
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/macrodrigues/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:./bin:./node_modules/.bin:/home/macrodrigues/.pyenv/plugins/pyenv-virtualenv/shims:/home/macrodrigues/.rbenv/bin:/home/macrodrigues/.pyenv/plugins/pyenv-virtualenv/shims:/home/macrodrigues/.pyenv/shims:/home/macrodrigues/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/Users/Marco Rodrigues/.windows-build-tools/python27/:/mnt/c/Users/Marco Rodrigues/.windows-build-tools/python27:/mnt/c/Users/Marco Rodrigues/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Marco Rodrigues/AppData/Roaming/npm:/mnt/c/Users/Marco Rodrigues/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Marco Rodrigues/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Python/Python39/Scripts:/usr/local/sbin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+VIRTUAL_ENV = /home/macrodrigues/.pyenv/versions/3.8.12/envs/projects
+# environment
+VSCODE_LOG_STACK = false
+# environment
+PYENV_ROOT = /home/macrodrigues/.pyenv
+# environment
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-febd1da8-f453-4ba9-909b-d616ce4516de.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-5jpUDr14Jzf4/agent.115
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 117
+# environment
+WSL_INTEROP = /run/WSL/633_interop
+# environment
+WT_SESSION = 3177b4ea-f348-43d1-ab95-3780069d6718
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+# environment
+PYENV_SHELL = zsh
+# environment
+HOME = /home/macrodrigues
+# environment
+LOGNAME = macrodrigues
+# environment
+BUNDLER_EDITOR = code
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = macrodrigues
+# makefile
+.DEFAULT_GOAL := install_requirements
+# environment
+NAME = Code
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Marco Rodrigues/.vscode/extensions/ms-vscode-remote.remote-wsl-0.63.13
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Microsoft VS Code
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PYTHONPATH = /home/macrodrigues/code/macrodrigues/data-challenges/04-Decision-Science:
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/macrodrigues/.nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = "/mnt/c/Program Files (x86)/BraveSoftware/Brave-Browser/Application/brave.exe"
+# environment
+WT_PROFILE_ID = {2c4de342-38b7-51cf-b940-2309a097f518}
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+PYENV_VIRTUALENV_DISABLE_PROMPT = 1
+# environment
+PYENV_VIRTUAL_ENV = /home/macrodrigues/.pyenv/versions/3.8.12/envs/projects
+# environment
+HOSTTYPE = x86_64
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+PYENV_VIRTUALENV_INIT = 1
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/macrodrigues/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/remote/node_modules
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+WSL_DISTRO_NAME = Ubuntu
+# variable set hash-table stats:
+# Load=86/1024=8%, Rehash=0, Collisions=5/114=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2064, inode 358786): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+black:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 11):
+	@black scripts/* butterfly_detector/*.py
+
+all: clean install test black check_code
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+install_requirements:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 5):
+	@pip install -r requirements.txt
+
+pypi:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 55):
+	@twine upload dist/* -u $(PYPI_USERNAME)
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-01-15 00:26:03.4790879
+#  File has been updated.
+#  Successfully updated.
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	@coverage run -m pytest tests/*.py
+	@coverage report -m --omit="${VIRTUAL_ENV}/lib/python*"
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 49):
+	@python setup.py sdist bdist_wheel
+
+check_code:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 8):
+	@flake8 scripts/* butterfly_detector/*.py
+
+count_lines:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 34):
+	@find ./ -name '*.py' -exec  wc -l {} \; | sort -n| awk \
+        '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
+	@echo ''
+	@find ./scripts -name '*-*' -exec  wc -l {} \; | sort -n| awk \
+		        '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
+	@echo ''
+	@find ./tests -name '*.py' -exec  wc -l {} \; | sort -n| awk \
+        '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
+	@echo ''
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := clean
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 21):
+	@rm -f */version.txt
+	@rm -f .coverage
+	@rm -fr */__pycache__ */*.pyc __pycache__
+	@rm -fr build dist
+	@rm -fr butterfly_detector-*.dist-info
+	@rm -fr butterfly_detector.egg-info
+
+ftest:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 18):
+	@Write me
+
+pypi_test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 52):
+	@twine upload -r testpypi dist/* -u $(PYPI_USERNAME)
+
+install:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 29):
+	@pip install . -U
+
+# files hash-table stats:
+# Load=15/1024=1%, Rehash=0, Collisions=0/32=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 33 / storage = 316 B / avg = 9 B
+# current buf: size = 8162 B / used = 316 B / count = 33 / avg = 9 B
+
+# strcache performance: lookups = 56 / hit rate = 41%
+# hash-table stats:
+# Load=33/8192=0%, Rehash=0, Collisions=1/56=2%
+# Finished Make data base on Sat Jan 15 16:17:16 2022
+
+ 
