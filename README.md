@@ -59,6 +59,3 @@ These are the butterflies being used for the project:
 *Iphiclides Feisthamelii*
 
 ![https___inaturalist-open-data s3 amazonaws com_photos_112557437_original](https://user-images.githubusercontent.com/62621924/149857033-9d716e06-c594-484f-876d-7a582b77e3b9.jpeg)
-
-
-
