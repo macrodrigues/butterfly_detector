@@ -28,9 +28,6 @@ These are the butterflies being used for the project:
 
 ![https___inaturalist-open-data s3 amazonaws com_photos_117330595_original - Cópia](https://user-images.githubusercontent.com/62621924/149856793-5cb16f29-085f-41a6-8438-6fe23605086b.jpg)
 
-
-![https___inaturalist-open-data s3 amazonaws com_photos_112828225_original](https://user-images.githubusercontent.com/62621924/149856816-576e2855-546b-4e15-a5a7-0bfb3a833ed9.jpeg)
-
 *Lysandra Bellargus*
 
 ![https___observation org_photos_13355969 - Cópia](https://user-images.githubusercontent.com/62621924/149856835-1d49abe1-fd4d-4c74-aa13-407ffe77ef92.jpg)
