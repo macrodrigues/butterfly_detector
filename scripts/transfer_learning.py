@@ -40,15 +40,17 @@ def compile_model():
                     include_top=False,
                     input_shape=(150, 150, 3))
     flattening_layer = layers.Flatten()
-    dense_layer_1 = layers.Dense(50, activation = 'relu')
-    dense_layer_2 = layers.Dense(20, activation = 'relu')
-    prediction_layer = layers.Dense(11, activation = 'softmax')
+    dense_layer_1 = layers.Dense(126, activation='relu')
+    dense_layer_2 = layers.Dense(50, activation='relu')
+    dense_layer_3 = layers.Dense(32, activation='relu')
+    prediction_layer = layers.Dense(12, activation = 'softmax')
 
     model = models.Sequential([
         base_model,
         flattening_layer,
         dense_layer_1,
         dense_layer_2,
+        dense_layer_3,
         prediction_layer
     ])
 
@@ -129,6 +131,7 @@ def check_accuracy(pick_model='model_test'):
                 new_vals.append(value)
                 new_keys.append(key)
         new_preds = dict(zip(new_keys, new_vals))
+        print(preds)
         print('TITLE:', i.split('_')[0])
         print('PREDICTIONS:', new_preds)
         print('BEST PREDICTION:', max(preds, key=preds.get))

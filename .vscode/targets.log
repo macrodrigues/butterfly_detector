@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jan 28 22:08:24 2022
+# Make data base, printed on Sat Feb  5 11:17:22 2022
 
 # Variables
 
@@ -20,8 +20,6 @@ WSLENV = ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID
 .SHELLFLAGS := -c
 # environment
 HOMEBREW_NO_ANALYTICS = 1
-# environment
-VSCODE_AGENT_FOLDER = /home/macrodrigues/.vscode-server
 # environment
 VSCODE_LOG_NATIVE = false
 # automatic
@@ -53,7 +51,7 @@ VSCODE_CWD = /mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Microsoft VS Co
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/macrodrigues/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/bin:./bin:./node_modules/.bin:/home/macrodrigues/.pyenv/plugins/pyenv-virtualenv/shims:/home/macrodrigues/.rbenv/bin:/home/macrodrigues/.pyenv/plugins/pyenv-virtualenv/shims:/home/macrodrigues/.pyenv/shims:/home/macrodrigues/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/Users/Marco Rodrigues/.windows-build-tools/python27/:/mnt/c/Users/Marco Rodrigues/.windows-build-tools/python27:/mnt/c/Users/Marco Rodrigues/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Marco Rodrigues/AppData/Roaming/npm:/mnt/c/Users/Marco Rodrigues/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Marco Rodrigues/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Python/Python39/Scripts:/usr/local/sbin
+PATH = /home/macrodrigues/.vscode-server/bin/5554b12acf27056905806867f251c859323ff7e9/bin/remote-cli:./bin:./node_modules/.bin:/home/macrodrigues/.pyenv/plugins/pyenv-virtualenv/shims:/home/macrodrigues/.rbenv/bin:/home/macrodrigues/.pyenv/plugins/pyenv-virtualenv/shims:/home/macrodrigues/.pyenv/shims:/home/macrodrigues/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/ATI Technologies/ATI.ACE/Core-Static:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files (x86)/PuTTY/:/mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Python/Python39/:/mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Marco Rodrigues/.windows-build-tools/python27/:/mnt/c/Users/Marco Rodrigues/.windows-build-tools/python27:/mnt/c/Users/Marco Rodrigues/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Marco Rodrigues/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Marco Rodrigues/AppData/Roaming/npm:/mnt/c/Users/Marco Rodrigues/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Marco Rodrigues/AppData/Local/Microsoft/WindowsApps:/usr/local/sbin
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
@@ -63,13 +61,13 @@ VSCODE_LOG_STACK = false
 # environment
 PYENV_ROOT = /home/macrodrigues/.pyenv
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-4aa2e97c-a627-4d25-9921-f90e34c61f13.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-ef95d086-5421-4202-9728-ec0b019717e5.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
 LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-GAycwGfsPnAd/agent.115
+SSH_AUTH_SOCK = /tmp/ssh-ie5WN1KnNT4X/agent.115
 # automatic
 %F = $(notdir $%)
 # environment
@@ -83,9 +81,9 @@ SSH_AGENT_PID = 117
 # environment
 WSL_INTEROP = /run/WSL/9_interop
 # environment
-WT_SESSION = 360bee46-a845-4f24-a210-027e960db41b
+WT_SESSION = 2d001743-4348-489a-be07-e801ec33f9f8
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/server/remoteExtensionHostProcess
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
 # environment
 PYENV_SHELL = zsh
 # environment
@@ -123,7 +121,7 @@ LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Marco Rodrigues/.vscode/extensions/ms-vscode-remote.remote-wsl-0.63.13
+VSCODE_WSL_EXT_LOCATION = /mnt/c/Users/Marco Rodrigues/.vscode/extensions/ms-vscode-remote.remote-wsl-0.64.2
 # default
 MAKE_COMMAND := make
 # environment
@@ -170,8 +168,6 @@ SUFFIXES :=
 PYENV_VIRTUALENV_INIT = 1
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# environment
-VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH = /home/macrodrigues/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/remote/node_modules
 # default
 .RECIPEPREFIX := 
 # environment
@@ -183,7 +179,7 @@ VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu
 # variable set hash-table stats:
-# Load=86/1024=8%, Rehash=0, Collisions=5/114=4%
+# Load=84/1024=8%, Rehash=0, Collisions=5/112=4%
 
 # Pattern-specific Variable Values
 
@@ -277,9 +273,9 @@ count_lines:
 	@find ./scripts -name '*-*' -exec  wc -l {} \; | sort -n| awk \
 		        '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
 	@echo ''
+ 
 	@find ./tests -name '*.py' -exec  wc -l {} \; | sort -n| awk \
         '{printf "%4s %s\n", $$1, $$2}{s+=$$0}END{print s}'
- 
 	@echo ''
 
 # Not a target:
@@ -355,6 +351,6 @@ install:
 # strcache performance: lookups = 56 / hit rate = 41%
 # hash-table stats:
 # Load=33/8192=0%, Rehash=0, Collisions=1/56=2%
-# Finished Make data base on Fri Jan 28 22:08:24 2022
+# Finished Make data base on Sat Feb  5 11:17:23 2022
 
  
