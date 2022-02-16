@@ -1,0 +1,21 @@
+# .coveragerc to control coverage.py
+
+[report]
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    # Have to re-enable the standard pragma:
+    pragma: no cover
+
+    # Don't complain if non-runnable code isn't run:
+    if 0:
+    if __name__ == .__main__.:
+    # Don't complain about debug code
+    if Image.DEBUG:
+    if DEBUG:
+
+[run]
+omit =
+    Tests/32bit_segfault_check.py
+    Tests/bench_cffi_access.py
+    Tests/check_*.py
+    Tests/createfontdatachunk.py

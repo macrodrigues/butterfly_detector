@@ -1,0 +1,14 @@
+prefix=/home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype
+exec_prefix=/home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype
+libdir=/home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/lib
+includedir=/home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/freetype/armeabi-v7a__ndk_target_21/freetype/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.1.17
+Requires:
+Requires.private: zlib
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

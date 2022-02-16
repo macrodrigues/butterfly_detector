@@ -1,0 +1,10 @@
+arm/filter_neon.lo: arm/filter_neon.S arm/../pngpriv.h config.h \
+  pnglibconf.h png.h
+
+arm/../pngpriv.h:
+
+config.h:
+
+pnglibconf.h:
+
+png.h:

@@ -1,0 +1,10 @@
+prefix=/home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/install
+exec_prefix=/home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/install
+libdir=/home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/install/lib
+includedir=/home/macrodrigues/code/macrodrigues/my_projects/butterfly_detector/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_21/jpeg/install/include
+
+Name: libjpeg
+Description: A SIMD-accelerated JPEG codec that provides the libjpeg API
+Version: 2.0.1
+Libs: -L${libdir} -ljpeg
+Cflags: -I${includedir}
