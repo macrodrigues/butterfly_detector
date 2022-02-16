@@ -1,6 +1,6 @@
 ## Project Introduction
 
-The goal is to detect a set of 22 butterflies, that are predominant in the south of europe.
+The goal is to detect a set of 11 butterflies, that are predominant in the south of europe.
 
 For the multiclass classification, I used the VGG16 for transfer learning:
 
