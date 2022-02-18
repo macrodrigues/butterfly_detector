@@ -1,19 +1,19 @@
 [app]
 
 # (str) Title of your application
-title = ButterflAI
+title = Butterfly Detector
 
 # (str) Package name
-package.name = butterflypack
+package.name = myapp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.butterflypack
+package.domain = org.test
 
 # (str) Source code where the main.py live
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas,tflite
+source.include_exts = py,png,jpg,tflite
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = kivy,numpy,pil
+requirements = python3,kivy,numpy,pil,android
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -46,13 +46,13 @@ requirements = kivy,numpy,pil
 #garden_requirements =
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/Aha-Soft-Free-Game-Butterfly.ico
+presplash.filename = %(source.dir)s/butterfly_img.png
 
 # (str) Icon of the application
 icon.filename = %(source.dir)s/Aha-Soft-Free-Game-Butterfly.ico
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
-orientation = all
+orientation = portrait
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
@@ -82,10 +82,10 @@ fullscreen = 0
 # red, blue, green, black, white, gray, cyan, magenta, yellow, lightgray,
 # darkgray, grey, lightgrey, darkgrey, aqua, fuchsia, lime, maroon, navy,
 # olive, purple, silver, teal.
-#android.presplash_color = #FFFFFF
+android.presplash_color = olive
 
 # (list) Permissions
-#android.permissions = INTERNET
+android.permissions = CAMERA,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 
 # (int) Target Android API, should be as high as possible.
 android.api = 30
@@ -117,7 +117,7 @@ android.minapi = 21
 # (bool) If True, then skip trying to update the Android sdk
 # This can be useful to avoid excess Internet downloads or save time
 # when an update is due and you just want to test/build your package
-android.skip_update = False
+#android.skip_update = False
 
 # (bool) If True, then automatically accept SDK license
 # agreements. This is intended for automation only. If set to False,
@@ -219,7 +219,7 @@ android.gradle_dependencies = "org.tensorflow:tensorflow-lite:+","org.tensorflow
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = armeabi-v7a
+android.arch = arm64-v8a
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
@@ -248,7 +248,7 @@ android.allow_backup = True
 #p4a.hook =
 
 # (str) Bootstrap to use for android builds
-# p4a.bootstrap = sdl2
+#p4a.bootstrap = sdl2
 
 # (int) port number to specify an explicit --port= p4a argument (eg for bootstrap flask)
 #p4a.port =
