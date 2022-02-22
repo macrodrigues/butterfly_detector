@@ -3,7 +3,7 @@ import os
 from kivy.app import App
 from PIL import Image
 from kivy.uix.camera import Camera
-from kivy.uix.gridlayout import GridLayout
+#from kivy.uix.gridlayout import GridLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
 from model import TensorFlowModel
@@ -60,20 +60,18 @@ class cameraApp(App):
 
     def predict(self, model='model.tflite'):
         butterflies = [
-            'Anthocharis Cardamines',
+            'Anthocharis Cardamines', 
             'Aricia Cramera', 
-            'Coenonympha Pamphilus',
-            'Colias Croceus',
-            'Gonepteryx Cleopatra',
-            'Iphiclides Feisthamelii',
-            'Issoria Lathonia',
-            'Lysandra Bellargus',
-            'Maniola Jurtina',
-            'Melanargia Ines',
-            'Melanargia Ines',
-            'Unknown',
-            'Vanessa Atalanta'
-            ]
+            'Coenonympha Pamphilus', 
+            'Colias Croceus', 
+            'Gonepteryx Cleopatra', 
+            'Iphiclides Feisthamelii', 
+            'Issoria Lathonia', 
+            'Lysandra Bellargus', 
+            'Maniola Jurtina', 
+            'Melanargia Ines', 
+            'Unknown', 
+            'Vanessa Atalanta']
 
         # Load TFLite model
         model_to_pred = TensorFlowModel()
