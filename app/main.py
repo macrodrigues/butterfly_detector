@@ -3,7 +3,6 @@ import os
 from kivy.app import App
 from PIL import Image
 from kivy.uix.camera import Camera
-#from kivy.uix.gridlayout import GridLayout
 from kivy.uix.label import Label
 from kivy.uix.button import Button
 from model import TensorFlowModel
@@ -12,8 +11,6 @@ from kivy.uix.boxlayout import BoxLayout
 butterfly = 'class'
 prediction = 'confidence'
 
-
-
 class cameraApp(App):
 
     def build(self):
@@ -21,7 +18,7 @@ class cameraApp(App):
         layout = BoxLayout(orientation='vertical')
 
         # create camera instance
-        self.cam = Camera()
+        self.cam = Camera(resolution = (640, 480))
 
         # create button
         self.btn = Button(
@@ -39,9 +36,6 @@ class cameraApp(App):
         self.lbl_conf = Label(
             text=prediction,
             size_hint=(1, 0.2))
-
-        # create grid layout
-        #layout = GridLayout(rows=4, cols=1)
 
         # add widgets in layout
         layout.add_widget(self.cam)
